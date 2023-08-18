@@ -1,0 +1,24 @@
+{
+  "settingsInheritedFrom": "Dima2021/whitesource-config@master",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "enableRenovate": true,
+    "extends": [
+      "config:base",
+      "github>whitesource/merge-confidence:beta"
+    ],
+    "packageRules": [
+      {
+        "matchDatasources": ["golang-version", "gradle-version"],
+        "enabled": false
+      },
+      {
+        "matchManagers": ["gomod"],
+        "matchDepTypes": ["indirect"],
+        "enabled": true
+      }
+    ]
+  }
+}
