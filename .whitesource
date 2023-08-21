@@ -22,7 +22,7 @@
       }
     ],
     "customEnvVariables": {
-      "GOPROXY": "https://proxy.golang.org,direct",
+      "GOPROXY": "https://proxy.golang.org,direct"
     },
     "hostRules": [
       {
