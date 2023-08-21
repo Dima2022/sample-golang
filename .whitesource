@@ -24,15 +24,13 @@
     "customEnvVariables": {
       "GOPROXY": "https://proxy.golang.org,direct"
     },
-    "hostRules": [
+   "hostRules": [
       {
         "hostType": "go",
-        "matchHost": "https://proxy.golang.org",
-        "username": admin,
-        "password": admin
+        "matchHost": process.env.MVN_REGISTRY,
+        "username": process.env.NEXUS_USERNAME,
+        "password": process.env.NEXUS_PASSWORD
       }
     ],
   }
 }
-
-
