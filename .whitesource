@@ -27,9 +27,9 @@
    "hostRules": [
       {
         "hostType": "go",
-        "matchHost": process.env.MVN_REGISTRY,
-        "username": process.env.NEXUS_USERNAME,
-        "password": process.env.NEXUS_PASSWORD
+        "matchHost": "https://proxy.golang.org",
+        "username": "admin",
+        "password": "admin"
       }
     ]
   }
