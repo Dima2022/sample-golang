@@ -31,6 +31,6 @@
         "username": process.env.NEXUS_USERNAME,
         "password": process.env.NEXUS_PASSWORD
       }
-    ],
+    ]
   }
 }
