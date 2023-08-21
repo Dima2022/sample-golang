@@ -23,7 +23,15 @@
     ],
     "customEnvVariables": {
       "GOPROXY": "https://proxy.golang.org,direct"
-    }
+    },
+    "hostRules": [
+      {
+        "hostType": "go",
+        "matchHost": "https://proxy.golang.org",
+        "username": admin,
+        "password": admin
+      }
+    ],
   }
 }
 
