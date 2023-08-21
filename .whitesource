@@ -9,12 +9,6 @@
       "config:base",
       "github>whitesource/merge-confidence:beta"
     ],
-    "packageRules": [
-      {
-        "matchManagers": ["gomod"],
-        "registryUrls": ["https://proxy.golang.org"]
-      }
-    ],
     "customEnvVariables": {
       "GOPROXY": "https://proxy.golang.org,direct"
     }
