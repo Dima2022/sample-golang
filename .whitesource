@@ -26,7 +26,6 @@
     },
    "hostRules": [
       {
-        "hostType": "go",
         "matchHost": "https://proxy.golang.org",
         "username": "admin",
         "password": "admin"
