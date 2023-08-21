@@ -16,8 +16,6 @@
       },
       {
         "matchManagers": ["gomod"],
-        "enabled": true,
-        "matchDepTypes": ["indirect"],
         "registryUrls": ["https://proxy.golang.org"]
       }
     ],
