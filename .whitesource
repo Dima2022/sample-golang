@@ -11,7 +11,7 @@
     ],
     "packageRules": [
       {
-        "matchDatasources": ["golang-version", "gradle-version"],
+        "matchDatasources": ["golang-version"],
         "enabled": false
       },
       {
