@@ -12,7 +12,7 @@
     "packageRules": [
       {
         "matchDatasources": ["golang-version"],
-        "enabled": false
+        "enabled": true
       },
       {
         "matchManagers": ["gomod"],
