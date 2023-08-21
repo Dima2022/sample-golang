@@ -11,10 +11,6 @@
     ],
     "packageRules": [
       {
-        "matchDatasources": ["golang-version"],
-        "enabled": true
-      },
-      {
         "matchManagers": ["gomod"],
         "registryUrls": ["https://proxy.golang.org"]
       }
