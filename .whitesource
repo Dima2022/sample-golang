@@ -16,12 +16,19 @@
       },
       {
         "matchManagers": ["gomod"],
+        "enabled": true,
         "matchDepTypes": ["indirect"],
-        "enabled": true
+        "registryUrls": [ "https://proxy.golang.org" ]
       }
-    ]
+    ],
+    "customEnvVariables": {
+      "GOPROXY": "https://proxy.golang.org,direct",
+    },
+    "hostRules": [
+      {
+        "hostType": "go",
+        "matchHost": "https://proxy.golang.org"
+      }
+    ],
   }
 }
-
-
-
