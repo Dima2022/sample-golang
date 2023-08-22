@@ -16,8 +16,7 @@
       },
       {
         "matchManagers": ["gomod"],
-        "enabled": true,
-        "matchDepTypes": ["indirect"]
+        "enabled": true
       }
     ]
   }
