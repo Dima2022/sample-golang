@@ -13,10 +13,6 @@
       {
         "matchDatasources": ["golang-version"],
         "enabled": true
-      },
-      {
-        "matchManagers": ["gomod"],
-        "enabled": true
       }
     ]
   }
